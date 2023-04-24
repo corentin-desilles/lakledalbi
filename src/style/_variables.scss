@@ -1,0 +1,17 @@
+:root {
+  --primary: #943633;
+  --secondary: #e0514c;
+  --gradiant: linear-gradient(
+    270deg,
+    #e0514c -35.94%,
+    #e0514c -34.44%,
+    #943633 89.84%
+  );
+  --black: #231e1e;
+  --black-75: rgba(35, 30, 30, 0.75);
+  --black-5: rgba(35, 30, 30, 0.05);
+  --font-family1: "Volkhov", serif;
+  --font-family2: "Poppins", sans-serif;
+  --box-shadow: 0 6px 9px 0 rgb(0 0 0 / 15%);
+  --box-shadow-nav: rgb(0 0 0 / 22%) 0px 2px 18px 0px;
+}
