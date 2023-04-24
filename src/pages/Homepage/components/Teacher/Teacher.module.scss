@@ -1,0 +1,47 @@
+.teacherSection {
+  margin-right: 256px;
+  margin-left: 256px;
+  margin-top: 256px;
+}
+
+.teacherContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContainer {
+  max-width: 528px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pictureContainer {
+  max-width: 528px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  img {
+    border-radius: 20px;
+  }
+}
+
+h5 {
+  color: var(--black);
+}
+
+.boulasses {
+  position: absolute;
+  top: 1100px;
+  left: 164px;
+  background: url(../../../../assets/boulasses.png);
+  height: 400px;
+  width: 500px;
+}
+
+.titreProfesseur {
+  position: absolute;
+  top: 120px;
+  left: 130px;
+  text-align: center;
+}

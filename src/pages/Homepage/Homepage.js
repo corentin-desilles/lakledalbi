@@ -10,8 +10,8 @@ const Homepage = () => {
       <div className={`${style.background}`}>
         <Header />
         <HeroBanner />
-        <Teacher />
       </div>
+      <Teacher />
     </>
   );
 };
