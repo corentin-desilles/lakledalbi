@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header';
 import Avis from './components/Avis/Avis';
 import HeroBanner from './components/HeroBanner/HeroBanner';
 import Lessons from './components/Lessons/Lessons';
+import Localisation from './components/Localisation/Localisation';
 import Program from './components/Program/Program';
 import Teacher from './components/Teacher/Teacher';
 import style from './Homepage.module.scss';
@@ -20,6 +21,7 @@ const Homepage = () => {
         <Program />
       </div>
       <Avis />
+      <Localisation />
     </>
   );
 };
