@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
+import Avis from './components/Avis/Avis';
 import HeroBanner from './components/HeroBanner/HeroBanner';
 import Lessons from './components/Lessons/Lessons';
 import Program from './components/Program/Program';
@@ -18,6 +19,7 @@ const Homepage = () => {
         <Lessons />
         <Program />
       </div>
+      <Avis />
     </>
   );
 };
