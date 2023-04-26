@@ -1,15 +1,11 @@
-import React from "react";
-import style from "./Teacher.module.scss";
-import teacher from "../../../../assets/teacher.jpeg";
+import React from 'react';
+import style from './Teacher.module.scss';
+import teacher from '../../../../assets/teacher.jpeg';
 
 const Teacher = () => {
   return (
     <section className={`${style.teacherSection}`}>
-      <div className={`${style.boulasses}`}>
-        <h3 className={`${style.titreProfesseur}`}>
-          Votre <br /> professeure
-        </h3>
-      </div>
+      <h2 className={`${style.titreProfesseur}`}>Votre professeure</h2>
 
       <div className={`${style.teacherContainer}`}>
         <div className={`${style.textContainer}`}>
@@ -34,7 +30,7 @@ const Teacher = () => {
           </p>
         </div>
         <div className={`${style.pictureContainer}`}>
-          <h5>
+          <h5 className={`${style.teacherPictureTitle}`}>
             Nathalie Désilles, enseignante diplômée <br /> (Master 2) et
             expérimentée (20 ans)
           </h5>

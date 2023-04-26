@@ -1,6 +1,5 @@
-import React from "react";
-import style from "./HeroBanner.module.scss";
-import key from "../../../../assets/key.png";
+import React from 'react';
+import style from './HeroBanner.module.scss';
 
 const HeroBanner = () => {
   return (
