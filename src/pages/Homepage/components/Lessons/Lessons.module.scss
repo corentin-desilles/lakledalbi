@@ -1,0 +1,28 @@
+.lessonsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 700px;
+}
+
+.lessonsContainer_content {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 15px 15px 0px 15px;
+}
+.lessonsContainer_content_subtitle {
+  margin-bottom: 16px;
+}
+
+.lessonsContainer_content_subtitleContainer {
+  display: flex;
+  i {
+    color: var(--black);
+    margin-right: 16px;
+  }
+}
+.lessonsContainer_subtitle_txt {
+  color: var(--black);
+  margin: 0px 0px 8px 0px;
+}
