@@ -1,0 +1,33 @@
+.programContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 700px;
+  margin-top: 128px;
+}
+
+.programContainer_content {
+  height: 100%;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 15px 15px 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.programContainer_content_subtitle {
+  margin-bottom: 16px;
+}
+
+.programContainer_content_subtitleContainer {
+  display: flex;
+  i {
+    color: var(--black);
+    margin-right: 16px;
+  }
+}
+.programContainer_subtitle_txt {
+  color: var(--black);
+  margin: 0px 0px 8px 0px;
+}
